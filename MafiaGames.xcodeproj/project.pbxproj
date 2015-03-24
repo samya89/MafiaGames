@@ -14,6 +14,13 @@
 		93AF0A061AC0B8D4007AF2CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AF0A051AC0B8D4007AF2CD /* Images.xcassets */; };
 		93AF0A091AC0B8D4007AF2CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AF0A071AC0B8D4007AF2CD /* LaunchScreen.xib */; };
 		93AF0A151AC0B8D4007AF2CD /* MafiaGamesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A141AC0B8D4007AF2CD /* MafiaGamesTests.m */; };
+		93AF0A261AC0D0D6007AF2CD /* MiniGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A251AC0D0D6007AF2CD /* MiniGame.m */; };
+		93AF0A2F1AC0DBFD007AF2CD /* MafiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A2E1AC0DBFD007AF2CD /* MafiaViewController.m */; };
+		93AF0A321AC0DC0B007AF2CD /* SheriffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A311AC0DC0B007AF2CD /* SheriffViewController.m */; };
+		93AF0A351AC0DC20007AF2CD /* MiniGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A341AC0DC20007AF2CD /* MiniGameViewController.m */; };
+		93AF0A371AC1069C007AF2CD /* Old_West_Sheriff_Badge_by_cmnixon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AF0A361AC1069C007AF2CD /* Old_West_Sheriff_Badge_by_cmnixon.png */; };
+		93AF0A3A1AC1144F007AF2CD /* MafiaMiniGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A391AC1144F007AF2CD /* MafiaMiniGame.m */; };
+		93AF0A3D1AC11460007AF2CD /* SheriffMiniGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AF0A3C1AC11460007AF2CD /* SheriffMiniGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,19 @@
 		93AF0A0E1AC0B8D4007AF2CD /* MafiaGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93AF0A131AC0B8D4007AF2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AF0A141AC0B8D4007AF2CD /* MafiaGamesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MafiaGamesTests.m; sourceTree = "<group>"; };
+		93AF0A241AC0D0D6007AF2CD /* MiniGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniGame.h; sourceTree = "<group>"; };
+		93AF0A251AC0D0D6007AF2CD /* MiniGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniGame.m; sourceTree = "<group>"; };
+		93AF0A2D1AC0DBFD007AF2CD /* MafiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaViewController.h; sourceTree = "<group>"; };
+		93AF0A2E1AC0DBFD007AF2CD /* MafiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaViewController.m; sourceTree = "<group>"; };
+		93AF0A301AC0DC0B007AF2CD /* SheriffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheriffViewController.h; sourceTree = "<group>"; };
+		93AF0A311AC0DC0B007AF2CD /* SheriffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheriffViewController.m; sourceTree = "<group>"; };
+		93AF0A331AC0DC20007AF2CD /* MiniGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniGameViewController.h; sourceTree = "<group>"; };
+		93AF0A341AC0DC20007AF2CD /* MiniGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniGameViewController.m; sourceTree = "<group>"; };
+		93AF0A361AC1069C007AF2CD /* Old_West_Sheriff_Badge_by_cmnixon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Old_West_Sheriff_Badge_by_cmnixon.png; sourceTree = "<group>"; };
+		93AF0A381AC1144F007AF2CD /* MafiaMiniGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MafiaMiniGame.h; sourceTree = "<group>"; };
+		93AF0A391AC1144F007AF2CD /* MafiaMiniGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MafiaMiniGame.m; sourceTree = "<group>"; };
+		93AF0A3B1AC11460007AF2CD /* SheriffMiniGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheriffMiniGame.h; sourceTree = "<group>"; };
+		93AF0A3C1AC11460007AF2CD /* SheriffMiniGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheriffMiniGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +86,7 @@
 				93AF09F71AC0B8D4007AF2CD /* MafiaGames */,
 				93AF0A111AC0B8D4007AF2CD /* MafiaGamesTests */,
 				93AF09F61AC0B8D4007AF2CD /* Products */,
+				93AF0A361AC1069C007AF2CD /* Old_West_Sheriff_Badge_by_cmnixon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,10 +106,22 @@
 				93AF09FD1AC0B8D4007AF2CD /* AppDelegate.m */,
 				93AF09FF1AC0B8D4007AF2CD /* ViewController.h */,
 				93AF0A001AC0B8D4007AF2CD /* ViewController.m */,
+				93AF0A331AC0DC20007AF2CD /* MiniGameViewController.h */,
+				93AF0A341AC0DC20007AF2CD /* MiniGameViewController.m */,
+				93AF0A301AC0DC0B007AF2CD /* SheriffViewController.h */,
+				93AF0A311AC0DC0B007AF2CD /* SheriffViewController.m */,
+				93AF0A2D1AC0DBFD007AF2CD /* MafiaViewController.h */,
+				93AF0A2E1AC0DBFD007AF2CD /* MafiaViewController.m */,
 				93AF0A021AC0B8D4007AF2CD /* Main.storyboard */,
 				93AF0A051AC0B8D4007AF2CD /* Images.xcassets */,
 				93AF0A071AC0B8D4007AF2CD /* LaunchScreen.xib */,
 				93AF09F81AC0B8D4007AF2CD /* Supporting Files */,
+				93AF0A241AC0D0D6007AF2CD /* MiniGame.h */,
+				93AF0A251AC0D0D6007AF2CD /* MiniGame.m */,
+				93AF0A3B1AC11460007AF2CD /* SheriffMiniGame.h */,
+				93AF0A3C1AC11460007AF2CD /* SheriffMiniGame.m */,
+				93AF0A381AC1144F007AF2CD /* MafiaMiniGame.h */,
+				93AF0A391AC1144F007AF2CD /* MafiaMiniGame.m */,
 			);
 			path = MafiaGames;
 			sourceTree = "<group>";
@@ -201,6 +234,7 @@
 			files = (
 				93AF0A041AC0B8D4007AF2CD /* Main.storyboard in Resources */,
 				93AF0A091AC0B8D4007AF2CD /* LaunchScreen.xib in Resources */,
+				93AF0A371AC1069C007AF2CD /* Old_West_Sheriff_Badge_by_cmnixon.png in Resources */,
 				93AF0A061AC0B8D4007AF2CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +253,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AF0A3D1AC11460007AF2CD /* SheriffMiniGame.m in Sources */,
+				93AF0A261AC0D0D6007AF2CD /* MiniGame.m in Sources */,
+				93AF0A351AC0DC20007AF2CD /* MiniGameViewController.m in Sources */,
 				93AF0A011AC0B8D4007AF2CD /* ViewController.m in Sources */,
+				93AF0A321AC0DC0B007AF2CD /* SheriffViewController.m in Sources */,
 				93AF09FE1AC0B8D4007AF2CD /* AppDelegate.m in Sources */,
 				93AF09FB1AC0B8D4007AF2CD /* main.m in Sources */,
+				93AF0A2F1AC0DBFD007AF2CD /* MafiaViewController.m in Sources */,
+				93AF0A3A1AC1144F007AF2CD /* MafiaMiniGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MafiaViewController.h
 //  MafiaGames
 //
 //  Created by Samia Al Rahmani on 3/23/15.
@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "MiniGame.h"
 
-@interface ViewController : UIViewController
-
+@interface MafiaViewController : UIViewController
 
 @end
-
